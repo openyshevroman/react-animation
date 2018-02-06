@@ -1,0 +1,51 @@
+/* ROUTE UP ANIMATION */
+.anim-up {
+  .anim-enter {
+    transform: translateX(-100%);
+  }
+  .anim-enter-active {
+    transform: translateX(0);
+    transition: transform .5s linear;
+  }
+  .anim-exit {
+    transform: translateX(-100%);
+  }
+  .anim-exit-active {
+    transform: translateX(50%);
+    transition: transform .5s linear;
+  }
+}
+
+/* ROUTE DOWN ANIMATION */
+.anim-down {
+  .anim-enter {
+    transform: translateX(120%);
+  }
+  .anim-enter-active {
+    transform: translateX(0%);
+    transition: transform .5s linear;
+  }
+  .anim-exit {
+    transform: translateX(-100%);
+  }
+  .anim-exit-active {
+    transform: translateX(-200%);
+    transition: transform .5s linear;
+  }
+}
+
+/* TOGGLE CONDITION ANIMATION */
+.toggle-anim-enter {
+  transform: translateX(-100%);
+}
+.toggle-anim-enter-active {
+  transform: translateX(0);
+  transition: transform .5s linear;
+}
+.toggle-anim-exit {
+  transform: translateX(-100%);
+}
+.toggle-anim-exit-active {
+  transform: translateX(50%);
+  transition: transform .45s linear;
+}

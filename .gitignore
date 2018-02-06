@@ -1,0 +1,15 @@
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.map
+*.tmp
+*.swap
+
+npm-debug.log
+node_modules
+
+.idea
